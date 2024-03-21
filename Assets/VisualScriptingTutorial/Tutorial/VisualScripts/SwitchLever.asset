@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SwitchLever
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"DoorAnimInput","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":false,"$type":"System.Boolean"},"_type":"System.Boolean","key":"Switch","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-238.2106,"y":18.3627},"zoom":1.0,"elements":[{"chainable":false,"parameterNames":["name","value"],"member":{"name":"SetBool","parameterTypes":["System.String","System.Boolean"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"Switched","$type":"System.String"},"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-59.0,"y":-66.0},"guid":"973c0185-e92c-4c46-b70c-449f55eed6a3","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"chainable":false,"parameterNames":["t"],"member":{"name":"GetComponentInChildren","parameterTypes":["System.Type"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null,"%t":{"$content":"UnityEngine.Animator","$type":"System.RuntimeType"}},"position":{"x":-426.0,"y":-138.0},"guid":"e46c748f-1c07-44e1-b1fb-1f4c50d09c84","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"16"},{"defaultValues":{},"position":{"x":228.0,"y":-67.0},"guid":"508ebbc3-ed6d-4641-bb41-14220658263e","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"20"},{"defaultValues":{},"position":{"x":-746.0,"y":-42.0},"guid":"e3308ea5-adf0-4503-98ca-7b1f6ad94eff","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"22"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"852efee5-d45f-4639-accd-f98992f60ea8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"DoorAnimInput","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"388b3d98-af4d-4a16-95a6-a1a21eb5ab24","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"20"},"destinationKey":"output","guid":"e26e24df-44d6-46f5-b301-fd3e4c46041e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"result","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"91c41f9f-505b-4498-a684-851b37787ebb","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"Switch","destinationUnit":{"$ref":"12"},"destinationKey":"%value","guid":"5f67dfc9-6c5f-45a9-ad79-88d2d92fa0f8","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

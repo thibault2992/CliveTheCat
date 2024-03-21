@@ -2733,7 +2733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9209011186761193269, guid: 16cb9df2584047446876ae58b02af79d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.5
+      value: 1.51
       objectReference: {fileID: 0}
     - target: {fileID: 9209011186761193269, guid: 16cb9df2584047446876ae58b02af79d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2803,11 +2803,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4595471834842218064, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.5
+      value: 8.51
       objectReference: {fileID: 0}
     - target: {fileID: 4595471834842218064, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4595471834842218064, guid: 26cf1c37c4a3bc84d9e51ea3559b3e50, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11841,7 +11841,7 @@ MonoBehaviour:
     - {fileID: 1289011742}
     PrefabIndex: 1
     Rotation: 3
-  m_SpawnPoint: {x: 3, y: 0, z: 2}
+  m_SpawnPoint: {x: 8, y: 0, z: 3}
   m_EndPoint: {x: 6, y: 0, z: -1}
   m_InteractiveCutWalls:
   - {fileID: 1110172099}
@@ -14657,6 +14657,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: d07e87f9dbea3e8409e7fdc477f460f8, type: 2}
+    - target: {fileID: 6597132627884882329, guid: ec394aa733c6b4f4c83a87873bb8280b, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CanFall","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 6597132627884882330, guid: ec394aa733c6b4f4c83a87873bb8280b, type: 3}
       propertyPath: m_Name
       value: Crate
@@ -14882,7 +14887,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3167424557500690278}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -14898,7 +14903,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3167424557500690278}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
   m_Name: 
