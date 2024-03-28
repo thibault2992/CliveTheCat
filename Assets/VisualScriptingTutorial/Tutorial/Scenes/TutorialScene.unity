@@ -11841,7 +11841,7 @@ MonoBehaviour:
     - {fileID: 1289011742}
     PrefabIndex: 1
     Rotation: 3
-  m_SpawnPoint: {x: 8, y: 0, z: 3}
+  m_SpawnPoint: {x: 9, y: 0, z: -2}
   m_EndPoint: {x: 6, y: 0, z: -1}
   m_InteractiveCutWalls:
   - {fileID: 1110172099}
@@ -14925,8 +14925,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DoorToOpen","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1095832463}
 --- !u!1001 &6702147472819526338
 PrefabInstance:
   m_ObjectHideFlags: 0
