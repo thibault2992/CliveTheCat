@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SoundManagerPlayOnShot
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"input","label":"","summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"output","label":null,"summary":null,"hideLabel":false},{"key":null,"label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"System.String","key":"Sound
+      Name","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":686.0,"y":-8.593941},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-145.0,"y":-47.0},"guid":"f192f2e7-022e-4d2d-81a3-dc77c0073dc9","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"13"},{"argumentCount":1,"defaultValues":{"name":{"$content":"","$type":"System.String"},"target":null},"position":{"x":780.0,"y":-134.0},"guid":"c9a146ee-bdb0-4935-8216-77981c84b7a8","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"15"},{"chainable":false,"parameterNames":["name"],"member":{"name":"Find","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%name":{"$content":"SoundManager2D","$type":"System.String"}},"position":{"x":195.0,"y":-109.0},"guid":"567cd311-2066-4938-8377-866939871425","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"type":"System.Single","value":{"$content":1.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":225.0,"y":88.0},"guid":"ddd42f60-5fda-4edf-ac7e-f892b1364399","$version":"A","$type":"Unity.VisualScripting.Literal"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"SoundManager2DPlaySoundSimple","$type":"System.String"}},"position":{"x":216.0,"y":-260.0},"guid":"33a6c40d-693d-4d04-9ecf-7116a16da6cb","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"23"},{"defaultValues":{},"position":{"x":1076.0,"y":-41.0},"guid":"bc9c04cc-425a-46e6-af54-6a3b95885524","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"25"},{"sourceUnit":{"$ref":"13"},"sourceKey":"input","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"2a7dc2dd-83b9-4d37-9dd0-8a0704a78f33","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"b4552868-cc14-46eb-b78d-a64cd01a78f6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"25"},"destinationKey":"output","guid":"e9cd5f21-649e-417f-953b-474a64a9f6e0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"name","guid":"00f89118-0cdc-408c-8d69-bcf5df1e1c3b","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"330d719f-4d0d-4081-9e01-622113744cba","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Sound
+      Name","destinationUnit":{"$ref":"15"},"destinationKey":"argument_0","guid":"aa6854fe-0251-4ec1-bbfc-64d7279f3629","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
